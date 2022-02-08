@@ -172,6 +172,7 @@ main{
 
 .component-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     width: 70%;
@@ -241,6 +242,24 @@ main{
     align-items: center;
     padding: 0 1rem;
     margin: 0.5rem 0;
+    border-radius: 5px;
+}
+
+.outlined-red{
+    background-color: white;
+    border: 1px solid #e74c3c;
+}
+.outlined-yellow{
+    background-color: white;
+    border: 1px solid #d2ab21;
+}
+.outlined-blue{
+    background-color: white;
+    border: 1px solid #3498db;
+}
+.outlined-green{
+    background-color: white;
+    border: 1px solid #2ecc71;
 }
 
 .red{
@@ -270,3 +289,81 @@ main{
     flex-direction: column;
 }
 
+/* Buttons */
+.btn-small{
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #8A1010;
+    color: #fcfcfc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-small:hover{
+    background-color: #770d0d;
+    /* color: #8A1010; */
+    border: 1px solid #e78d8d;
+    font-weight: bold;
+    /* box-shadow: 1px 1px 10px 2px #fcfcfc; */
+}
+
+.btn-outlined{
+    background-color: transparent;
+    border: 1px solid #e78d8d;
+    color: #8A1010;
+    font-weight: bold;
+}
+
+.btn-outlined:hover{
+    background-color: transparent;
+    /* color: #8A1010; */
+    border: 1px solid #8A1010;
+    font-weight: bold;
+}
+
+.btn-text{
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: white;
+    color: #8A1010;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-text:hover{
+    background-color: #fcfcfc;
+    font-weight: bold;
+}
+
+.btn-icon{
+    cursor: pointer;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.btn-icon:hover{
+    background-color: #fcfcfc;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.btn-fab{
+    cursor: pointer;
+    background-color: #8A1010;
+    padding: 1.5rem 1.5rem;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 1px 2px 6px 1px gainsboro;
+    color: white;
+}
+
+.btn-fab:hover{
+    background-color: #770d0d;
+}
