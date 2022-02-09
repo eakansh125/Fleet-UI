@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+:root{
+    --primary-maroon: #8A1010;
+    --secondary-grey: #e7ebf0;
+    --light-maroon: #e78d8d;
+    --dark-maroon: #770d0d;
+    --hover-grey: #f8fafc;
+    --light-grey: #fcfcfc;
+    --light-red: #fee2e2;
+    --light-yellow: #fef9c3;
+    --light-blue: #dbeafe;
+    --light-green: #dcfce7;
+    --light-red-outlined: #e74c3c;
+    --light-yellow-outlined: #d2ab21;
+    --light-blue-outlined: #3498db;
+    --light-green-outlined: #2ecc71;
+
+}
+
 *{
     font-family: 'Montserrat', sans-serif;
 }
@@ -19,20 +37,17 @@ body{
 }
 
 .nav-header-div{
-    /* background-color: darkgreen; */
     padding: 1rem;
     display: flex;
     align-items: center;
 }
 
 .nav-header-div-lt{
-    /* background-color: brown; */
     padding: 1rem;
     flex: 1;
 }
 
 .nav-header-div-rt{
-    /* background-color: chocolate; */
     padding: 1rem;
     flex: 1;
 }
@@ -45,7 +60,6 @@ body{
 }
 
 .main-view-hero{
-    /* background-color: darkmagenta; */
     padding: 0 1rem;
     display: flex;
     height: 540px;
@@ -53,7 +67,6 @@ body{
 
 .main-view-hero-lt{
     flex: 1;
-    /* background-color: darkolivegreen; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,7 +75,6 @@ body{
 
 .main-view-hero-rt{
     flex: 1;
-    /* background-color: darkslategrey; */
 }
 
 .btn-regular{
@@ -70,15 +82,15 @@ body{
     padding: 1rem;
     border: 1px solid transparent;
     border-radius: 10px;
-    background-color: #8A1010;
-    color: #e7ebf0;
+    background-color: var(--primary-maroon);
+    color: var(--secondary-grey);
     text-decoration: none;
 }
 
 .btn-regular:hover{
-    background-color: #f8fafc;
-    color: #8A1010;
-    border: 1px solid #8A1010;
+    background-color: var(--hover-grey);
+    color: var(--primary-maroon);
+    border: 1px solid var(--primary-maroon);
     font-weight: bold;
 }
 
@@ -91,15 +103,8 @@ body{
 
 aside{
     flex: 1;
-    /* background-color: #313133;
-    color: gainsboro; */
-    /* position: fixed;
-    height: 100%; */
     height: 100%;
-    /* margin-top: 2rem; */
-    border-right: 1px solid #e7ebf0;
-    /* box-shadow: inset 0px -1px 1px #e7ebf0; */
-    
+    border-right: 1px solid var(--secondary-grey);    
 }
 
 .nav-pill{
@@ -123,7 +128,6 @@ main{
 
 .nav-pill>a{
     text-decoration: none;
-    /* color: #f8fafc; */
     color: black;
     margin: 1rem;
 }
@@ -172,27 +176,27 @@ main{
 
 .component-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     width: 70%;
-    border: 1px solid #e7ebf0;
-    box-shadow: inset 0px -1px 1px #e7ebf0;
+    border: 1px solid var(--secondary-grey);
+    box-shadow: inset 0px -1px 1px var(--secondary-grey);
     padding: 2rem;
 }
 
 .avatar-letter{
-    background-color: #8A1010;
+    background-color: var(--primary-maroon);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #e7ebf0;
+    color: var(--secondary-grey);
     border-radius: 50%;
 }
 
 /* Badge */
 
 .badge-container{
-    /* background-color: blue; */
     display: flex;
     align-items: center;
     position: relative;
@@ -216,8 +220,8 @@ main{
     width: 1.5rem;
     height: 1.5rem;
     font-size: 1rem;
-    background-color: #8A1010;
-    color: #e7ebf0;
+    background-color: var(--primary-maroon);
+    color: var(--secondary-grey);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,41 +231,57 @@ main{
 .badge-container>button{
     padding: 10px;
     cursor: pointer;
-    border: 1px solid #e7ebf0;
+    border: 1px solid var(--secondary-grey);
     font-weight: bold;
-    background-color: #e7ebf0;
+    background-color: var(--secondary-grey);
 }
 
 /* Alert */
 
 .alert-container{
     width: 90%;
-    /* flex-grow: 1; */
     display: flex;
     align-items: center;
     padding: 0 1rem;
     margin: 0.5rem 0;
+    border-radius: 5px;
+}
+
+.outlined-red{
+    background-color: white;
+    border: 1px solid var(--light-red-outlined);
+}
+.outlined-yellow{
+    background-color: white;
+    border: 1px solid var(--light-yellow-outlined);
+}
+.outlined-blue{
+    background-color: white;
+    border: 1px solid var(--light-blue-outlined);
+}
+.outlined-green{
+    background-color: white;
+    border: 1px solid var(--light-green-outlined);
 }
 
 .red{
-    background-color: #fee2e2;
+    background-color: var(--light-red);
 }
 
 .yellow{
-    background-color: #fef9c3;
+    background-color: var(--light-yellow);
 }
 
 .blue{
-    background-color: #dbeafe;
+    background-color: var(--light-blue);
 }
 
 .green{
-    background-color: #dcfce7;
+    background-color: var(--light-green);
 }
 
 .alert-container>p{
     margin-left: 1rem;
-    /* font-weight: bold; */
     font-size: 1rem;
 }
 
@@ -270,3 +290,79 @@ main{
     flex-direction: column;
 }
 
+/* Buttons */
+.btn-small{
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: var(--primary-maroon);
+    color: var(--light-grey);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-small:hover{
+    background-color: var(--dark-maroon);
+    border: 1px solid var(--light-maroon);
+    font-weight: bold;
+}
+
+.btn-outlined{
+    background-color: transparent;
+    border: 1px solid var(--light-maroon);
+    color: var(--primary-maroon);
+    font-weight: bold;
+}
+
+.btn-outlined:hover{
+    background-color: transparent;
+    /* color: #8A1010; */
+    border: 1px solid var(--primary-maroon);
+    font-weight: bold;
+}
+
+.btn-text{
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: white;
+    color: var(--primary-maroon);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-text:hover{
+    background-color: var(--light-grey);
+    font-weight: bold;
+}
+
+.btn-icon{
+    cursor: pointer;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.btn-icon:hover{
+    background-color: var(--light-grey);
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.btn-fab{
+    cursor: pointer;
+    background-color: var(--primary-maroon);
+    padding: 1.5rem 1.5rem;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 1px 2px 6px 1px gainsboro;
+    color: white;
+}
+
+.btn-fab:hover{
+    background-color: var(--dark-maroon);
+}
