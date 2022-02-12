@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="nav-header">
+        <div class="nav-header-div">
+            <div class="nav-header-div-lt">
+                <a href="index.html">Home</a>
+                <a href="#">Products</a>
+                <a href="#">Docs</a>
+                <a href="#">Pricing</a>
+                <a href="#">About us</a>
+                <a href="#">Blogs</a>
+            </div>
+            <div class="nav-header-div-rt">
+                <button>Search</button>
+                <button>Github</button>
+                <button>Dark mode</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="view">
+        <aside>
+            <div class="nav-pill">
+                <a href="docs.html">Avatar</a>
+                <a href="badge.html">Badge</a>
+                <a href="alert.html">Alert</a>
+                <a class="active" href="button.html">Button</a>
+                <a href="card.html">Card</a>
+            </div>
+        </aside>
+
+        <main class="main-view">
+            <div class="main-view-container">
+                <h1>Button</h1>
+                <p>Buttons allow users to take actions, and make choices, with a single tap.</p>
+                <h2>Basic button</h2>
+                <p>The Button comes with three variants: text (default), contained, and outlined.</p>
+                <div class="component-container space-evenly">
+                    <button class="btn-small">PRIMARY</button>
+                    <button class="btn-small btn-outlined">OUTLINED</button>
+                    <button class="btn-text">TEXT</button>
+                </div>
+                <h2>Link buttons</h2>
+                <p>Link buttons contain a link to a specific URL or source. Comes with three variants: text (default), contained, and outlined.</p>
+
+                <div class="component-container space-evenly">
+                    <a href="#" class="btn-small">LINK</a>
+                    <a href="#" class="btn-small btn-outlined">LINK</a>
+                    <a href="#" class="btn-text">LINK</a>
+
+                </div>
+
+                <h2>Icon buttons</h2>
+                <p>Icon buttons are commonly found in app bars and toolbars.</p>
+                <p>Icons are also appropriate for toggle buttons that allow a single choice to be selected or deselected, such as adding or
+                removing a star to an item.</p>
+                
+                <div class="component-container space-evenly">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" x="0px" y="0px" width="24" height="24" viewBox="0 0 172 172"
+                        style=" fill:#000000;">
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                            stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                            <path d="M0,172v-172h172v172z" fill="none"></path>
+                            <g fill="#e74c3c">
+                                <path
+                                    d="M85.91042,14.25495c-3.16203,0.04943 -5.68705,2.6496 -5.64375,5.81172v2.86667h-31.53333c-1.53406,-0.02082 -3.01249,0.574 -4.10468,1.65146c-1.09219,1.07746 -1.70703,2.54767 -1.70704,4.08187h-8.52161c-2.06765,-0.02924 -3.99087,1.05709 -5.03322,2.843c-1.04236,1.78592 -1.04236,3.99474 0,5.78066c1.04236,1.78592 2.96558,2.87225 5.03322,2.843h103.2c2.06765,0.02924 3.99087,-1.05709 5.03322,-2.843c1.04236,-1.78592 1.04236,-3.99474 0,-5.78066c-1.04236,-1.78592 -2.96558,-2.87225 -5.03322,-2.843h-8.52161c-0.00001,-1.53421 -0.61486,-3.00442 -1.70704,-4.08187c-1.09219,-1.07746 -2.57061,-1.67228 -4.10468,-1.65146h-31.53333v-2.86667c0.02122,-1.54972 -0.58581,-3.04203 -1.68279,-4.1369c-1.09698,-1.09487 -2.59045,-1.69903 -4.14013,-1.67482zM34.4,51.6l10.27969,87.34375c0.67653,5.77347 5.56348,10.12292 11.37708,10.12292h59.88646c5.8136,0 10.69482,-4.34945 11.37708,-10.12292l10.27969,-87.34375z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" x="0px" y="0px" width="24" height="24" viewBox="0 0 172 172"
+                        style=" fill:#000000;">
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                            stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                            <path d="M0,172v-172h172v172z" fill="none"></path>
+                            <g fill="#e74c3c">
+                                <path
+                                    d="M86,6.88c-43.62952,0 -79.12,35.49048 -79.12,79.12c0,43.62952 35.49048,79.12 79.12,79.12c43.62952,0 79.12,-35.49048 79.12,-79.12c0,-43.62952 -35.49048,-79.12 -79.12,-79.12zM110.08,89.44h-20.64v20.64c0,1.90232 -1.53768,3.44 -3.44,3.44c-1.90232,0 -3.44,-1.53768 -3.44,-3.44v-20.64h-20.64c-1.90232,0 -3.44,-1.53768 -3.44,-3.44c0,-1.90232 1.53768,-3.44 3.44,-3.44h20.64v-20.64c0,-1.90232 1.53768,-3.44 3.44,-3.44c1.90232,0 3.44,1.53768 3.44,3.44v20.64h20.64c1.90232,0 3.44,1.53768 3.44,3.44c0,1.90232 -1.53768,3.44 -3.44,3.44z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" x="0px" y="0px" width="24" height="24" viewBox="0 0 172 172"
+                        style=" fill:#000000;">
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                            stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                            <path d="M0,172v-172h172v172z" fill="none"></path>
+                            <g fill="#e74c3c">
+                                <path
+                                    d="M169.3125,86c-0.00021,1.07147 -0.63629,2.04064 -1.61922,2.46712l-161.25,69.875c-1.0641,0.46171 -2.30436,0.1886 -3.07611,-0.67738c-0.77174,-0.86597 -0.9008,-2.12937 -0.32009,-3.1335l31.68563,-54.9325c0.30511,-0.52855 0.78085,-0.93767 1.34913,-1.16019l31.79339,-12.43856l-31.79312,-12.43748c-0.56828,-0.22252 -1.04402,-0.63164 -1.34913,-1.16019l-31.68589,-54.93358c-0.58071,-1.00413 -0.45165,-2.26753 0.32009,-3.1335c0.77174,-0.86597 2.012,-1.13909 3.07611,-0.67738l161.25,69.875c0.98293,0.42649 1.61901,1.39566 1.61922,2.46712z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" x="0px" y="0px" width="24" height="24" viewBox="0 0 172 172"
+                        style=" fill:#000000;">
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                            stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                            <path d="M0,172v-172h172v172z" fill="none"></path>
+                            <g fill="#e74c3c">
+                                <path
+                                    d="M129,14.33333c-11.87412,0 -21.5,9.62588 -21.5,21.5c0.00438,1.34841 0.1356,2.69342 0.39193,4.01725l-50.99252,29.74447c-3.88392,-3.29017 -8.80922,-5.09561 -13.89941,-5.09505c-11.87412,0 -21.5,9.62588 -21.5,21.5c0,11.87412 9.62588,21.5 21.5,21.5c5.08233,-0.00997 9.99681,-1.82005 13.87142,-5.10905l51.02051,29.75847c-0.25633,1.32383 -0.38755,2.66884 -0.39193,4.01725c0,11.87412 9.62588,21.5 21.5,21.5c11.87412,0 21.5,-9.62588 21.5,-21.5c0,-11.87412 -9.62588,-21.5 -21.5,-21.5c-5.08714,0.00666 -10.00713,1.81694 -13.88542,5.10905l-51.00651,-29.75847c0.25633,-1.32383 0.38755,-2.66884 0.39193,-4.01725c-0.00438,-1.34841 -0.1356,-2.69342 -0.39193,-4.01725l50.99251,-29.74447c3.88392,3.29017 8.80922,5.09561 13.89941,5.09505c11.87412,0 21.5,-9.62588 21.5,-21.5c0,-11.87412 -9.62588,-21.5 -21.5,-21.5z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" x="0px" y="0px" width="24" height="24" viewBox="0 0 172 172"
+                        style=" fill:#000000;">
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                            stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                            font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                            <path d="M0,172v-172h172v172z" fill="none"></path>
+                            <g fill="#e74c3c">
+                                <path
+                                    d="M130.8275,6.89344c-4.07156,-0.01344 -8.15656,0.67188 -12.08031,2.13656l-5.375,2.09625l43.7525,43.7525l3.85656,3.49375l1.89469,-4.93156c0.1075,-0.24187 0.215,-0.48375 0.29563,-0.72562c4.36719,-12.42969 1.16906,-26.45844 -8.12969,-35.75719c-6.51719,-6.51719 -15.29188,-10.02438 -24.21438,-10.06469zM43.18813,6.93375c-9.62125,-0.49719 -19.25594,3.05031 -26.23,10.02438c-9.47344,9.47344 -12.59094,23.71719 -7.94156,36.29469l2.10969,5.36156l43.7525,-43.7525l3.48031,-3.81625l-4.90469,-1.92156c-0.24188,-0.1075 -0.49719,-0.215 -0.73906,-0.30906c-3.1175,-1.08844 -6.31563,-1.70656 -9.52719,-1.88125zM86,20.64c-39.82875,0 -72.24,32.41125 -72.24,72.24c0,39.82875 32.41125,72.24 72.24,72.24c39.82875,0 72.24,-32.41125 72.24,-72.24c0,-39.82875 -32.41125,-72.24 -72.24,-72.24zM86,55.04c1.89469,0 3.44,1.54531 3.44,3.44v30.96h30.96c1.89469,0 3.44,1.54531 3.44,3.44c0,1.89469 -1.54531,3.44 -3.44,3.44h-30.96v30.96c0,1.89469 -1.54531,3.44 -3.44,3.44c-1.89469,0 -3.44,-1.54531 -3.44,-3.44v-30.96h-30.96c-1.89469,0 -3.44,-1.54531 -3.44,-3.44c0,-1.89469 1.54531,-3.44 3.44,-3.44h30.96v-30.96c0,-1.89469 1.54531,-3.44 3.44,-3.44zM29.38781,148.08125l-11.18,11.16656c-1.34375,1.34375 -1.34375,3.52062 0,4.86437c0.67187,0.67188 1.54531,1.00781 2.43219,1.00781c0.88688,0 1.76031,-0.33594 2.43219,-1.00781l11.32781,-11.32781c-1.73344,-1.505 -3.41312,-3.06375 -5.01219,-4.70313zM142.61219,148.08125c-1.59906,1.63938 -3.27875,3.19813 -5.01219,4.70313l11.32781,11.32781c0.67187,0.67188 1.54531,1.00781 2.43219,1.00781c0.88688,0 1.76031,-0.33594 2.43219,-1.00781c1.34375,-1.34375 1.34375,-3.52062 0,-4.86437z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+
+                <h2>Floating action button</h2>
+                <p>A floating action button appears in front of all screen content, typically as a circular shape with an icon in its
+                center.</p>
+                
+                <div class="component-container space-evenly">
+                    <button class="btn-fab gray-shadow">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 172 172"
+                            style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                                stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path
+                                        d="M82.41667,7.16667c-1.978,0 -3.58333,1.60533 -3.58333,3.58333v75.25h-75.25c-1.978,0 -3.58333,1.60533 -3.58333,3.58333c0,1.978 1.60533,3.58333 3.58333,3.58333h75.25v75.25c0,1.978 1.60533,3.58333 3.58333,3.58333c1.978,0 3.58333,-1.60533 3.58333,-3.58333v-75.25h75.25c1.978,0 3.58333,-1.60533 3.58333,-3.58333c0,-1.978 -1.60533,-3.58333 -3.58333,-3.58333h-75.25v-75.25c0,-1.978 -1.60533,-3.58333 -3.58333,-3.58333z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                    <button class="btn-fab gray-shadow">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 172 172"
+                            style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                                stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path
+                                        d="M129,14.33333l-17.30078,17.30078l28.66667,28.66667l17.30078,-17.30078zM100.87923,42.4541l-79.37923,79.37923v28.66667h28.66667l79.37923,-79.37923z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                    <button class="btn-fab gray-shadow">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 172 172"
+                            style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                                stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path
+                                        d="M86,162.71469l-2.20375,-1.8275c-4.17906,-3.49375 -9.83625,-7.28312 -16.39375,-11.66375c-25.54469,-17.10594 -60.5225,-40.51406 -60.5225,-80.42344c0,-24.65781 20.06219,-44.72 44.72,-44.72c13.39719,0 25.94781,5.96625 34.4,16.16531c8.45219,-10.19906 21.00281,-16.16531 34.4,-16.16531c24.65781,0 44.72,20.06219 44.72,44.72c0,39.90938 -34.97781,63.3175 -60.5225,80.42344c-6.5575,4.38063 -12.21469,8.17 -16.39375,11.66375z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+
+                    <button class="btn-fab gray-shadow">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 172 172"
+                            style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                                stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path
+                                        d="M119.71469,116.27469c-5.84531,-2.40531 -13.07469,-5.50937 -13.07469,-7.91469v-15.48c8.6,-6.53062 13.76,-16.85062 13.76,-27.52v-20.64c0,-18.92 -15.48,-34.4 -34.4,-34.4c-18.92,0 -34.4,15.48 -34.4,34.4v20.64c0,10.66938 5.16,21.32531 13.76,27.52v15.48c0,2.06938 -7.22937,5.16 -13.07469,7.91469c-14.09594,5.84531 -35.08531,14.79469 -35.08531,38.52531v3.44h137.6v-3.44c0,-23.73062 -20.98937,-32.68 -35.08531,-38.52531z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                    
+                
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+</body>
+
+</html>
