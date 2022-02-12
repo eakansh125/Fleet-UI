@@ -41,6 +41,20 @@ body{
     margin-top: 5px;
 }
 
+.text-dec-none{
+    text-decoration: none;
+}
+
+.margin-lr{
+    margin: 0 1rem;
+}
+
+.font-primary-color{
+    color: var(--primary-maroon);
+}
+
+
+
 .nav-header{
     position: sticky;
     top: 0;
@@ -60,11 +74,15 @@ body{
 .nav-header-div-lt{
     padding: 1rem;
     flex: 1;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .nav-header-div-rt{
     padding: 1rem;
     flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
