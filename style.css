@@ -209,7 +209,7 @@ main{
     font-weight: bold;
 }
 
-.badge-container>span{
+.badge-span{
     position: absolute;
     top: -15px;
     right: -15px;
@@ -270,3 +270,13 @@ main{
     flex-direction: column;
 }
 
+.avatar-badge{
+    top: 2.5rem;
+    right: -0.5rem;
+}
+
+.outlined{
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+}
