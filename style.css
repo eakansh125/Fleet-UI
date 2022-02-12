@@ -70,9 +70,6 @@ body{
 
 /* Main view */
 
-.main-view{
-    /* padding: 0 1rem; */
-}
 
 .main-view-hero{
     padding: 0 1rem;
@@ -123,7 +120,6 @@ aside{
 }
 
 .nav-pill{
-    /* background-color: hotpink; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -334,7 +330,6 @@ main{
 
 .btn-outlined:hover{
     background-color: transparent;
-    /* color: #8A1010; */
     border: 1px solid var(--primary-maroon);
     font-weight: bold;
 }
@@ -390,7 +385,6 @@ main{
     height: auto;
     width: 350px;
     background-color: white;
-    /* border: 1px solid gray; */
     border-radius: 5px;
     color: black;
     display: flex;
@@ -406,25 +400,16 @@ main{
 }
 
 .card-upper{
-    /* background-color: blueviolet; */
     width: 100%;
 }
 
 .card-lower{
     width: 100%;
-    /* margin: 0 1rem;
-    padding: 1rem 1rem; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: burlywood; */
 }
 
-/* .image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 .image>img{
     width: 100%;
@@ -435,12 +420,8 @@ main{
 
 .text{
     margin: 1rem;
-    /* background-color: brown; */
 }
 
-/* .text-heading{
-    border: 1px solid;
-} */
 
 .text-heading>h3{
     margin: 0;
@@ -456,7 +437,6 @@ main{
 .card-lowerRight{
     display: flex;
     flex: 1;
-    /* background-color: turquoise; */
     justify-content: space-around;
     align-items: center;
 }
@@ -469,11 +449,8 @@ main{
 
 
 .card-lowerRight>img:hover{
-    /* border: 1px solid; */
     border-radius: 20px;
     background-color: #f1f5f9;
-    /* rgb(245, 237, 253); */
-    /* rgb(220, 220, 220); */
 }
 
 .small-margin-top-bottom{
@@ -497,7 +474,6 @@ main{
     width: 90%;
     display: flex;
     margin-bottom: 0.3rem;
-    /* background-color: tomato; */
 }
 
 .horizontal{
@@ -509,4 +485,15 @@ main{
 
 .margin-left{
     margin-left: 1rem;
+}
+
+.badge-card{
+    width: 25%;
+    position: relative;
+    padding: 0.4rem 0.5rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--dark-maroon);
+    color: var(--light-grey);
+    border-radius: 0 20px 20px 0;
 }
