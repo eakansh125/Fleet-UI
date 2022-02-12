@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="nav-header">
+        <div class="nav-header-div">
+            <div class="nav-header-div-lt">
+                <a href="index.html">Home</a>
+                <a href="#">Products</a>
+                <a href="#">Docs</a>
+                <a href="#">Pricing</a>
+                <a href="#">About us</a>
+                <a href="#">Blogs</a>
+            </div>
+            <div class="nav-header-div-rt">
+                <button>Search</button>
+                <button>Github</button>
+                <button>Dark mode</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="view">
+        <aside>
+            <div class="nav-pill">
+                <a href="docs.html">Avatar</a>
+                <a href="badge.html">Badge</a>
+                <a href="alert.html">Alert</a>
+                <a href="button.html">Button</a>
+                <a href="card.html">Card</a>
+                <a class="active" href="input.html">Input</a>
+            </div>
+        </aside>
+
+        <main class="main-view">
+            <div class="main-view-container">
+                <h1>Input</h1>
+                <p>Text fields allow users to enter text into a UI. They typically appear in forms and dialogs.</p>
+                <h2>Text Field</h2>
+                <p>Text fields allow users to enter text into a UI. They typically appear in forms and dialogs.</p>
+                <div class="component-container">
+                    <input class="input-outlined" type="text" placeholder="Outlined"/>
+                    <input class="input-filled" type="text" placeholder="Filled" />
+                    <input class="input-standard" type="text" placeholder="Standard" />
+                </div>
+                
+                <h2>Validations</h2>
+                <p>The text fields can be validated for errors. If there is an error, the color format of the text box will change
+                    along with an error message.
+                </p>
+                <div class="component-container">
+                    <div>
+                        <input class="input-outlined error" type="text" placeholder="Outlined" />
+                        <p class="error-message">Incorrect value</p>
+                    </div>
+                    <div>
+                        <input class="input-filled error-bottom" type="text" placeholder="Filled" />
+                        <p class="error-message">Incorrect value</p>
+                    </div>
+                    <div>
+                        <input class="input-standard error-bottom" type="text" placeholder="Standard" />
+                        <p class="error-message">Incorrect value</p>
+                    </div>
+                    
+                </div>
+                
+
+            </div>
+
+        </main>
+    </div>
+
+</body>
+
+</html>

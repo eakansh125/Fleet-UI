@@ -524,3 +524,78 @@ main{
     background-color: var(--secondary-grey);
     opacity: 0.9;
 }
+
+/* Input */
+.input-outlined{
+    padding: 0.8rem 0.6rem;
+    border: 1px solid  var(--secondary-grey);
+    border-radius: 5px;
+}
+
+.input-outlined:hover{
+    border: 1px solid  gray;
+}
+
+.input-outlined:focus{
+    outline: none;
+    border: 1px solid var(--primary-maroon);
+}
+
+.input-filled{
+    padding: 0.8rem 0.6rem;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid;
+    background-color: var(--light-grey);
+    border-radius: 5px 5px 0 0;
+}
+
+.input-filled:hover{
+    background-color: var(--secondary-grey);
+}
+
+.input-filled:focus{
+    outline: none;
+    border-bottom: 1px solid var(--primary-maroon);   
+}
+
+.input-standard{
+    padding: 0.8rem 0.6rem;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid;
+}
+
+.input-standard:focus{
+    outline: none;
+    border-bottom: 1px solid var(--primary-maroon);   
+}
+
+.error{
+    border: 1.5px solid var(--light-red-outlined);
+}
+
+.error:hover{
+    border: 1.5px solid var(--light-red-outlined);
+}
+
+.error:focus{
+    border: 1.5px solid var(--light-red-outlined);
+}
+
+.error-bottom{
+    border-bottom: 1.5px solid var(--light-red-outlined);    
+}
+
+.error-bottom:focus{
+    border-bottom: 1.5px solid var(--light-red-outlined);    
+}
+
+.error-message{
+    margin: 0.2rem 0 0 0.5rem;
+    color: var(--light-red-outlined);
+    font-size: smaller;
+    font-weight: bold;
+}
