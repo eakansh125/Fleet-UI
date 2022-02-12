@@ -595,3 +595,24 @@ main{
     font-size: smaller;
     font-weight: bold;
 }
+
+/* Image */
+
+.img-full{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-container{
+    width: 15rem;
+    height: 15rem;
+    font-size: 2.5rem;
+}
+
+.img-round{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
