@@ -543,9 +543,7 @@ main{
 
 .input-filled{
     padding: 0.8rem 0.6rem;
-    border-left: none;
-    border-right: none;
-    border-top: none;
+    border: none;
     border-bottom: 1px solid;
     background-color: var(--light-grey);
     border-radius: 5px 5px 0 0;
@@ -562,9 +560,7 @@ main{
 
 .input-standard{
     padding: 0.8rem 0.6rem;
-    border-left: none;
-    border-right: none;
-    border-top: none;
+    border: none;
     border-bottom: 1px solid;
 }
 
