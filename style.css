@@ -53,6 +53,10 @@ body{
     color: var(--primary-maroon);
 }
 
+.pointer{
+    cursor: pointer;
+}
+
 
 
 .nav-header{
@@ -633,5 +637,17 @@ main{
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
+}
+
+/* Toast */
+
+.toast-container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
 }
 
