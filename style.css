@@ -28,6 +28,18 @@ body{
 
 /* Generic styles */
 
+.flex-column{
+    flex-direction: column;
+}
+
+.align-start{
+    align-items: flex-start;
+}
+
+.heading-contaienr{
+    width: 50%;
+}
+
 .font-bold{
     font-weight: 900;
 }
