@@ -28,12 +28,16 @@ body{
 
 /* Generic styles */
 
-.flex-row{
-    flex-direction: row;
-}
-
 .flex-column{
     flex-direction: column;
+}
+
+.align-start{
+    align-items: flex-start;
+}
+
+.heading-contaienr{
+    width: 50%;
 }
 
 .font-bold{
