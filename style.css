@@ -57,12 +57,24 @@ body{
     text-decoration: none;
 }
 
+.width-full{
+    width: 100%;
+}
+
 .margin-lr{
     margin: 0 1rem;
 }
 
 .font-primary-color{
     color: var(--primary-maroon);
+}
+
+.background-light-grey{
+    background-color: var(--light-grey);
+}
+
+.position-static{
+    position: static !important;
 }
 
 .ul-disc{
@@ -98,6 +110,10 @@ body{
     flex: 1;
     display: flex;
     justify-content: flex-start;
+}
+
+.nav-header-div-mid{
+    flex: 2;
 }
 
 .nav-header-div-rt{
