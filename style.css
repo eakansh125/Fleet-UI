@@ -15,7 +15,6 @@
     --light-yellow-outlined: #d2ab21;
     --light-blue-outlined: #3498db;
     --light-green-outlined: #2ecc71;
-
 }
 
 *{
@@ -92,6 +91,7 @@ body{
 .ul-circle{
     list-style-type: circle;    
 }
+
 
 .nav-header{
     position: sticky;
@@ -677,6 +677,38 @@ main{
     border-radius: 50%;
 }
 
+/* Rating */
+
+.rating-container{
+    padding: 1rem;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.rating-star{
+    padding: 0.5rem;
+    cursor: pointer;
+    color: white;
+}
+
+.rating-star:hover{
+    color: var(--light-yellow-outlined);
+}
+
+.rating-active{
+    color: var(--light-yellow-outlined);
+}
+
+.rating-inactive{
+    color: white;
+}
+
+#rating-text{
+    width: 30%;
+    height: 2rem;
+    font-weight: bold;
+    color: var(--primary-maroon);
+}
 /* Grid */
 
 .grid{

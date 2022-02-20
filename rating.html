@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text</title>
+    <title>Input</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -35,47 +35,43 @@
                 <a href="alert.html">Alert</a>
                 <a href="button.html">Button</a>
                 <a href="card.html">Card</a>
-                <a  href="image.html">Image</a>
+                <a href="image.html">Image</a>
                 <a href="input.html">Input</a>
-                <a class="active"href="text.html">Text</a>
+                <a class="active" href="rating.html">Rating</a>
             </div>
         </aside>
 
         <main class="main-view">
             <div class="main-view-container">
-                <h1>Text</h1>
-                <p>Images are provided with a source either from the local system or from the web in different
-                    extensions.</p>
-                <h2>Headings</h2>
-                <p>A responsive image changes its size and adjusts accordingly as the screen size changes</p>
+                <h1>Rating</h1>
+                <p>Text fields allow users to enter text into a UI. They typically appear in forms and dialogs.</p>
+                <h2>Basic rating bar</h2>
                 <div class="component-container">
-                    <div class="text-contaienr flex-column">
-                        <h1>Sipping on straight chlorine</h1>
-                        <h2>Sipping on straight chlorine</h2>
-                        <h3>Sipping on straight chlorine</h3>
-                        <h4>Sipping on straight chlorine</h4>
-                        <h5>Sipping on straight chlorine</h5>
-                        <h6>Sipping on straight chlorine</h6>
-                    </div>
-                    
+                        <div class="rating-container">
+                            <span class="rating-star star-1 rating-active"><i class="fas fa-star"></i></span>
+                            <span class="rating-star star-2"><i class="fas fa-star"></i></span>
+                            <span class="rating-star star-3"><i class="fas fa-star"></i></span>
+                            <span class="rating-star star-4"><i class="fas fa-star"></i></span>
+                            <span class="rating-star star-5"><i class="fas fa-star"></i></span>
+                        </div>
                 </div>
-
-                <h2>Text styles</h2>
-                <p>Rounded images as the name suggests have a round border and usually makes a full circle like a
-                    portrait.</p>
-                <div class="component-container flex-column">
-                    <div class="text-contaienr flex-column">
-                        <p>Ever wondered what a small text looks like? Yeah, same!</p>
-                        <p class="font-bold">How about small text but bold like Ashneer? Haha !!!</p>
-                        <p class="font-primary-color">Also, how about small text but with a theme? Haha !!</p>
-                        <p class="font-primary-color font-bold">Small text with theme and also bold like Ashneer? </p>
-                        <p class="font-gray font-bold">The world a is little grey sometimes, so is this text! </p>
+                <h2>Rating bar with text</h2>
+                <p>Text fields allow users to enter text into a UI. They typically appear in forms and dialogs.</p>
+                <div class="component-container">
+                    <div class="rating-container">
+                        <span class="rating-star text-star-1 rating-active"><i class="fas fa-star"></i></span>
+                        <span class="rating-star text-star-2"><i class="fas fa-star"></i></span>
+                        <span class="rating-star text-star-3"><i class="fas fa-star"></i></span>
+                        <span class="rating-star text-star-4"><i class="fas fa-star"></i></span>
+                        <span class="rating-star text-star-5"><i class="fas fa-star"></i></span>
                     </div>
-                    <p class="font-bold">Center of the universe!</p>
+                    <div id="rating-text"></div>
                 </div>
             </div>
         </main>
     </div>
+    <script src="https://kit.fontawesome.com/edf8601953.js" crossorigin="anonymous"></script>
+    <script src="rating.js"></script>
 </body>
 
 </html>
