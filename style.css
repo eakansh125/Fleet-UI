@@ -635,3 +635,49 @@ main{
     border-radius: 50%;
 }
 
+/* Image */
+
+.grid{
+    width: 70%;
+    display: grid;
+    gap: 0.5rem;
+    border: 1px solid var(--secondary-grey);
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.grid-container-2-cols{
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-container-3-cols{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid1{
+    background-color: var(--primary-maroon);
+    color: var(--secondary-grey);
+    height: 15rem;
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.grid2{
+    background-color: var(--secondary-grey);
+    color: var(--dark-maroon);
+    height: 15rem;
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.grid3{
+    border: 1px solid var(--primary-maroon);
+    color: var(--primary-maroon);
+    box-sizing: border-box;
+    height: 15rem;
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
