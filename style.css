@@ -15,7 +15,6 @@
     --light-yellow-outlined: #d2ab21;
     --light-blue-outlined: #3498db;
     --light-green-outlined: #2ecc71;
-
 }
 
 *{
@@ -681,7 +680,6 @@ main{
 /* Rating */
 
 .rating-container{
-    /* border: 1px solid var(--secondary-grey); */
     padding: 1rem;
     background-color: black;
     border-radius: 10px;
