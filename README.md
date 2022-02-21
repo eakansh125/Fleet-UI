@@ -1,25 +1,35 @@
 # Fleet-UI
-Fleet UI brings you a clean, minimalistic UI components to be used in your web pages. Forget about the hassle of going through multiple library and get started with a themed library which uses a specific theme rather than a vast variety of themes, thus providing a professional look and keeping the UI professional at the same time.
+Fleet UI brings you a clean, minimalistic UI components to be used in your web pages. Forget about the hassle of going through multiple library and get started with a themed libraries which uses a specific theme rather than a vast variety of themes, thus providing a professional look and keeping the UI professional at the same time.
+
+![fleetuisc](https://user-images.githubusercontent.com/84897066/155015033-c9fdd9e2-e33b-4182-b790-68f27fc36f6d.png)
+
 
 ## Features
 * Gives you a minimalistic UI
 * Keeps the code simple and reusable
 * Provides themed components to be used in the code
 
+## Use it locally
+Just copy the below link to your code and get started with the library. Easy as a pie!
+```
+<link rel="stylesheet" href="https://fleetui.netlify.app/style.css" />
+```
+
 ## Components
-1. Avatar
-2. Badge
-3. Alert
-4. Button
-5. Card
-6. Image
-7. Input
-8. Text utilities
-9. List
-10. Navigation
-11. Rating
-12. Toast
-13. Grid
+1. Avatar: https://fleetui.netlify.app/docs.html
+2. Badge: https://fleetui.netlify.app/components/badge.html
+3. Alert: https://fleetui.netlify.app/components/alert.html
+4. Button: https://fleetui.netlify.app/components/button.html
+5. Card: https://fleetui.netlify.app/components/card.html
+6. Image: https://fleetui.netlify.app/components/image.html
+7. Input: https://fleetui.netlify.app/components/input.html
+8. Text utilities: https://fleetui.netlify.app/components/text.html
+9. List: https://fleetui.netlify.app/components/list.html
+10. Navigation: https://fleetui.netlify.app/components/navigation.html
+11. Rating: https://fleetui.netlify.app/components/rating.html
+12. Toast: https://fleetui.netlify.app/components/toast.html
+13. Grid: https://fleetui.netlify.app/components/grid.html
+14. Modal: https://fleetui.netlify.app/components/modal.html
 
 ## Avatar
 Avatar displays the profile icon of a user across the page. It is usually rounded but can come in many shapes.
