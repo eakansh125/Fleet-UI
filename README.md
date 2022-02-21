@@ -73,7 +73,7 @@ We provide 2 types of inputs:
 
 ## Text utilities:
 Text comes in different position and sizes. We have gathered them and categorized them into 2 styles:
-1. HEadings (h1 - h6)
+1. Headings (h1 - h6)
 2. Text styles (light, bold, themed, themed-bold, grey, centered)
 
 ## List:
@@ -96,7 +96,7 @@ We provide 2 types of rating:
 2. Rating bar with text
 
 ## Toast:
-A toastis generally an alert pop up, with a dismiss option. Usually pops up on screen as a call to action.
+A toast is generally an alert pop up, with a dismiss option. Usually pops up on screen as a call to action.
 
 ## Grid:
 A grid component allows the items on page to be fractioned and displayed in a linear format.
