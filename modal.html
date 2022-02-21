@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Input</title>
+    <title>Text</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -20,8 +20,9 @@
             </div>
             <div class="nav-header-div-rt">
                 <a href="https://github.com/eakansh125/Fleet-UI/tree/dev"><img class="margin-lr"
-                        src="https://img.icons8.com/ios-filled/20/000000/github.png" alt="icon"/></a>
-                <a href="#"><img class="margin-lr" src="https://img.icons8.com/material/20/000000/do-not-disturb-2.png" alt="icon"/></a>
+                        src="https://img.icons8.com/ios-filled/20/000000/github.png" alt="icon" /></a>
+                <a href="#"><img class="margin-lr" src="https://img.icons8.com/material/20/000000/do-not-disturb-2.png"
+                        alt="icon" /></a>
             </div>
         </div>
     </header>
@@ -35,10 +36,10 @@
                 <a href="button.html">Button</a>
                 <a href="card.html">Card</a>
                 <a href="image.html">Image</a>
-                <a class="active" href="input.html">Input</a>
+                <a href="input.html">Input</a>
                 <a href="rating.html">Rating</a>
                 <a href="grid.html">Grid</a>
-                <a href="modal.html">Modal</a>
+                <a class="active" href="modal.html">Modal</a>
                 <a href="toast.html">Toast</a>
                 <a href="navigation.html">Navigation</a>
                 <a href="text.html">Text</a>
@@ -48,38 +49,25 @@
 
         <main class="main-view">
             <div class="main-view-container">
-                <h1>Input</h1>
-                <p>Inputs allow users to enter text into a UI. They typically appear in forms and dialogs.</p>
-                <h2>Text Field</h2>
-                <p>Simple text field comes in 3 styles: outlined, filled and standard</p>
-                <div class="component-container">
-                    <input class="input-outlined" type="text" placeholder="Outlined"/>
-                    <input class="input-filled" type="text" placeholder="Filled" />
-                    <input class="input-standard" type="text" placeholder="Standard" />
-                </div>
-                
-                <h2>Validations</h2>
-                <p>The text fields can be validated for errors. If there is an error, the color format of the text box will change
-                    along with an error message.
+                <h1>Modal</h1>
+                <p>A modal is a call to action pop up which appears usually on top of the current content of the screen and
+                    freezes the contents until dismissed.
                 </p>
                 <div class="component-container">
-                    <div>
-                        <input class="input-outlined error" type="text" placeholder="Outlined" />
-                        <p class="error-message">Incorrect value</p>
-                    </div>
-                    <div>
-                        <input class="input-filled error-bottom" type="text" placeholder="Filled" />
-                        <p class="error-message">Incorrect value</p>
-                    </div>
-                    <div>
-                        <input class="input-standard error-bottom" type="text" placeholder="Standard" />
-                        <p class="error-message">Incorrect value</p>
+                    <div class="modal-container">
+                        <button id="open-modal" class="btn-small btn-outlined">OPEN MODAL</button>
+                        <div id="myModal" class="modal">
+                            <div class="modal-content font-bold">
+                                <p>Congratulatins, you are a modal opener!</p>
+                                <button id="close-modal" class="btn-small btn-outlined">X</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </main>
     </div>
-
+    <script src="modal.js"></script>
 </body>
 
 </html>
