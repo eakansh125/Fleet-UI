@@ -1,9 +1,9 @@
 
-var openModalbtn = document.querySelector("#open-modal")
+const openModalbtn = document.querySelector("#open-modal")
 
-var modal = document.getElementById("myModal");
+const modal = document.querySelector("#modal-body");
 
-var span = document.querySelector("#close-modal");
+const closeModalbtn = document.querySelector("#close-modal");
 
 const openModal = () => {
     modal.style.display = "block"
@@ -15,4 +15,4 @@ const closeModal = () => {
 
 openModalbtn.addEventListener("click", openModal)
 
-span.addEventListener("click", closeModal)
+closeModalbtn.addEventListener("click", closeModal)
