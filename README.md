@@ -15,6 +15,10 @@ Just copy the below link to your code and get started with the library. Easy as 
 <link rel="stylesheet" href="https://fleetui.netlify.app/style.css" />
 ```
 
+## Gify
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/84897066/155017833-cb19d757-759f-4833-85e4-05d49507b7ac.gif)
+
+
 ## Components
 1. Avatar: https://fleetui.netlify.app/docs.html
 2. Badge: https://fleetui.netlify.app/components/badge.html
@@ -113,6 +117,9 @@ A grid component allows the items on page to be fractioned and displayed in a li
 We provdide 2 types of grid:
 1. Grid with 2 columns
 2. Grid with 3 columns
+
+## Modal:
+A modal is a call to action pop up which appears usually on top of contents of the screen and freezes the contents until dismissed.
 
 
 
