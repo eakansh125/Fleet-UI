@@ -182,6 +182,7 @@ aside{
     flex: 1;
     height: 100%;
     border-right: 1px solid var(--secondary-grey);    
+    border-bottom: 1px solid var(--secondary-grey); 
 }
 
 .nav-pill{
@@ -191,7 +192,7 @@ aside{
     align-items: center;
     margin: 2rem;
     position: sticky;
-    top: 150px;
+    top: 100px;
 }
 
 .active{
@@ -201,6 +202,7 @@ aside{
 main{
     flex: 5;
 }
+
 
 .nav-pill>a{
     text-decoration: none;
